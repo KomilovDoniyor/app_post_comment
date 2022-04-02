@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="66fb97ae-8fe9-4b43-8eb7-90927570bcb8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../app_post_comment/src/main/java/test/app_post_comment/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app_post_comment/src/main/java/test/app_post_comment/config/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app_post_comment/src/main/java/test/app_post_comment/config/WebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app_post_comment/src/main/java/test/app_post_comment/controller/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app_post_comment/src/main/java/test/app_post_comment/controller/CommunityController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app_post_comment/src/main/java/test/app_post_comment/controller/PostController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app_post_comment/src/main/java/test/app_post_comment/domain/Comment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app_post_comment/src/main/java/test/app_post_comment/domain/Community.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app_post_comment/src/main/java/test/app_post_comment/domain/Post.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app_post_comment/src/main/java/test/app_post_comment/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app_post_comment/src/main/java/test/app_post_comment/domain/Vote.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app_post_comment/src/main/java/test/app_post_comment/domain/auth/RefreshToken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app_post_comment/src/main/java/test/app_post_comment/domain/auth/VerificationToken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app_post_comment/src/main/java/test/app_post_comment/dto/AuthenticationResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app_post_comment/src/main/java/test/app_post_comment/dto/CommunityDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app_post_comment/src/main/java/test/app_post_comment/dto/LoginRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app_post_comment/src/main/java/test/app_post_comment/dto/NotificationEmail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app_post_comment/src/main/java/test/app_post_comment/dto/PostRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app_post_comment/src/main/java/test/app_post_comment/dto/PostResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app_post_comment/src/main/java/test/app_post_comment/dto/RefreshTokenRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app_post_comment/src/main/java/test/app_post_comment/dto/RegisterRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app_post_comment/src/main/java/test/app_post_comment/enums/VoteType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app_post_comment/src/main/java/test/app_post_comment/exception/CommunityNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app_post_comment/src/main/java/test/app_post_comment/exception/PostNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app_post_comment/src/main/java/test/app_post_comment/exception/RefreshTokenException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app_post_comment/src/main/java/test/app_post_comment/mapper/CommunityMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app_post_comment/src/main/java/test/app_post_comment/mapper/PostMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app_post_comment/src/main/java/test/app_post_comment/repository/CommentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app_post_comment/src/main/java/test/app_post_comment/repository/CommunityRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app_post_comment/src/main/java/test/app_post_comment/repository/PostRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app_post_comment/src/main/java/test/app_post_comment/repository/RefreshTokenRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app_post_comment/src/main/java/test/app_post_comment/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app_post_comment/src/main/java/test/app_post_comment/repository/VerificationTokenRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app_post_comment/src/main/java/test/app_post_comment/repository/VoteRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app_post_comment/src/main/java/test/app_post_comment/security/JwtProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app_post_comment/src/main/java/test/app_post_comment/service/AuthService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app_post_comment/src/main/java/test/app_post_comment/service/impl/AuthServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app_post_comment/src/main/java/test/app_post_comment/service/impl/CommunityService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app_post_comment/src/main/java/test/app_post_comment/service/impl/MailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app_post_comment/src/main/java/test/app_post_comment/service/impl/PostService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app_post_comment/src/main/java/test/app_post_comment/service/impl/RefreshTokenService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app_post_comment/src/main/java/test/app_post_comment/service/impl/UserDetailServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app_post_comment/src/main/resources/app.pr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app_post_comment/src/main/resources/app.pub" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rest_template_test/src/main/java/test/rest_template_test/config/RestConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rest_template_test/src/main/java/test/rest_template_test/controller/ThirdPartyController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rest_template_test/src/main/java/test/rest_template_test/model/LoginUserData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rest_template_test/src/main/java/test/rest_template_test/model/RegisterUserData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rest_template_test/src/main/java/test/rest_template_test/response/Response.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="274C8DxZf6aIvKxRenLbbc8aTWL" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="66fb97ae-8fe9-4b43-8eb7-90927570bcb8" name="Changes" comment="" />
+      <created>1648569815142</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1648569815142</updated>
+      <workItem from="1648569816304" duration="193000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
