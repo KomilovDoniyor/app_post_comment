@@ -1,2 +1,14 @@
-package test.rest_template_test.config;public class RestConfig {
+package test.rest_template_test.config;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.web.client.RestTemplate;
+
+@Configuration
+public class RestConfig {
+
+    @Bean
+    public RestTemplate restTemplate(){
+        return new RestTemplate();
+    }
 }

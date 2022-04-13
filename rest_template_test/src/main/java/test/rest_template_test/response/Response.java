@@ -1,4 +1,4 @@
-package webbrain.incomeexpenseapp.dto.res;
+package test.rest_template_test.response;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

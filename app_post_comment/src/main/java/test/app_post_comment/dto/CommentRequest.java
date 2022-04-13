@@ -4,11 +4,15 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.time.Instant;
+
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class RegisterRequest {
+public class CommentRequest {
+    private Integer id;
+    private Integer postId;
+    private String text;
+    private Instant createdAt;
     private String username;
-    private String email;
-    private String password;
 }
